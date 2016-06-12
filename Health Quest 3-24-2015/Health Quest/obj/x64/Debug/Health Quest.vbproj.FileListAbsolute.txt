@@ -1,0 +1,50 @@
+C:\Users\Joel\Desktop\sir joel\HQ_Prod\Health Quest 3-24-2015\Health Quest\bin\x64\Debug\Health Quest.exe.config
+C:\Users\Joel\Desktop\sir joel\HQ_Prod\Health Quest 3-24-2015\Health Quest\bin\x64\Debug\Health Quest.exe
+C:\Users\Joel\Desktop\sir joel\HQ_Prod\Health Quest 3-24-2015\Health Quest\bin\x64\Debug\Health Quest.pdb
+C:\Users\Joel\Desktop\sir joel\HQ_Prod\Health Quest 3-24-2015\Health Quest\bin\x64\Debug\Health Quest.xml
+C:\Users\Joel\Desktop\sir joel\HQ_Prod\Health Quest 3-24-2015\Health Quest\bin\x64\Debug\MySql.Data.dll
+C:\Users\Joel\Desktop\sir joel\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\x64\Debug\ResolveAssemblyReference.cache
+C:\Users\Joel\Desktop\sir joel\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\x64\Debug\Health_Quest.rpt_balancemasterlist.resources
+C:\Users\Joel\Desktop\sir joel\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\x64\Debug\Health_Quest.rpt_Sales.resources
+C:\Users\Joel\Desktop\sir joel\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\x64\Debug\Health_Quest.rpt_hmo.resources
+C:\Users\Joel\Desktop\sir joel\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\x64\Debug\Health_Quest.frm_Balance.resources
+C:\Users\Joel\Desktop\sir joel\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\x64\Debug\Health_Quest.frm_cashier.resources
+C:\Users\Joel\Desktop\sir joel\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\x64\Debug\Health_Quest.frm_hmo.resources
+C:\Users\Joel\Desktop\sir joel\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\x64\Debug\Health_Quest.frm_receptionist.resources
+C:\Users\Joel\Desktop\sir joel\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\x64\Debug\Health_Quest.frm_request_item.resources
+C:\Users\Joel\Desktop\sir joel\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\x64\Debug\Health_Quest.frm_Staff.resources
+C:\Users\Joel\Desktop\sir joel\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\x64\Debug\Health_Quest.frm_uploadexcel.resources
+C:\Users\Joel\Desktop\sir joel\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\x64\Debug\Health_Quest.mntr_doctor.resources
+C:\Users\Joel\Desktop\sir joel\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\x64\Debug\Health_Quest.mntr_inventory.resources
+C:\Users\Joel\Desktop\sir joel\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\x64\Debug\Health_Quest.mntr_patient.resources
+C:\Users\Joel\Desktop\sir joel\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\x64\Debug\Health_Quest.frm_addpackage.resources
+C:\Users\Joel\Desktop\sir joel\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\x64\Debug\Health_Quest.frm_changepassword.resources
+C:\Users\Joel\Desktop\sir joel\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\x64\Debug\Health_Quest.frm_adminAuthenticate.resources
+C:\Users\Joel\Desktop\sir joel\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\x64\Debug\Health_Quest.frm_consultation.resources
+C:\Users\Joel\Desktop\sir joel\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\x64\Debug\Health_Quest.frm_department.resources
+C:\Users\Joel\Desktop\sir joel\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\x64\Debug\Health_Quest.frm_doctor.resources
+C:\Users\Joel\Desktop\sir joel\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\x64\Debug\Health_Quest.frm_SetItem.resources
+C:\Users\Joel\Desktop\sir joel\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\x64\Debug\Health_Quest.frm_item.resources
+C:\Users\Joel\Desktop\sir joel\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\x64\Debug\Health_Quest.frm_itemcategory.resources
+C:\Users\Joel\Desktop\sir joel\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\x64\Debug\Health_Quest.frm_login.resources
+C:\Users\Joel\Desktop\sir joel\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\x64\Debug\Health_Quest.frm_package.resources
+C:\Users\Joel\Desktop\sir joel\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\x64\Debug\Health_Quest.frm_preview2.resources
+C:\Users\Joel\Desktop\sir joel\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\x64\Debug\Health_Quest.frm_price.resources
+C:\Users\Joel\Desktop\sir joel\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\x64\Debug\Health_Quest.frm_schedule.resources
+C:\Users\Joel\Desktop\sir joel\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\x64\Debug\Health_Quest.frm_ServiceCategory.resources
+C:\Users\Joel\Desktop\sir joel\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\x64\Debug\Health_Quest.frm_serviceType.resources
+C:\Users\Joel\Desktop\sir joel\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\x64\Debug\Health_Quest.frm_setpackage.resources
+C:\Users\Joel\Desktop\sir joel\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\x64\Debug\Health_Quest.frm_specialization.resources
+C:\Users\Joel\Desktop\sir joel\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\x64\Debug\Health_Quest.frm_user.resources
+C:\Users\Joel\Desktop\sir joel\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\x64\Debug\Health_Quest.MDI_Administrator.resources
+C:\Users\Joel\Desktop\sir joel\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\x64\Debug\Health_Quest.mntr_que.resources
+C:\Users\Joel\Desktop\sir joel\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\x64\Debug\Health_Quest.mntr_service.resources
+C:\Users\Joel\Desktop\sir joel\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\x64\Debug\Health_Quest.Resources.resources
+C:\Users\Joel\Desktop\sir joel\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\x64\Debug\Health_Quest.Report_InventoryForm.resources
+C:\Users\Joel\Desktop\sir joel\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\x64\Debug\Health_Quest.rpt_balance.resources
+C:\Users\Joel\Desktop\sir joel\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\x64\Debug\Health_Quest.Report_RequestForm1.resources
+C:\Users\Joel\Desktop\sir joel\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\x64\Debug\Health_Quest.rpt_unbalance.resources
+C:\Users\Joel\Desktop\sir joel\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\x64\Debug\Health Quest.vbproj.GenerateResource.Cache
+C:\Users\Joel\Desktop\sir joel\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\x64\Debug\Health Quest.exe
+C:\Users\Joel\Desktop\sir joel\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\x64\Debug\Health Quest.xml
+C:\Users\Joel\Desktop\sir joel\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\x64\Debug\Health Quest.pdb
