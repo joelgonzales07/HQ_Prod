@@ -7,13 +7,11 @@ Public Class frm_login
     Private Sub txtUser_Leave(ByVal sender As Object, ByVal e As System.EventArgs) Handles txtUser.Leave
         If txtUser.Text = "" Then
             txtUser.Text = "USERNAME"
-
         End If
     End Sub
     Private Sub txtPass_Leave(ByVal sender As Object, ByVal e As System.EventArgs) Handles txtPass.Leave
         If txtPass.Text = "" Then
             txtPass.Text = "PASSWORD"
-
         End If
     End Sub
     Private Sub txtUser_MouseClick(ByVal sender As Object, ByVal e As System.Windows.Forms.MouseEventArgs) Handles txtUser.MouseClick
