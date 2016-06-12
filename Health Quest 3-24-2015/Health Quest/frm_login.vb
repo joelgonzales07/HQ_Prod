@@ -6,6 +6,7 @@ Public Class frm_login
 
         Dim select_query As String = "select * from hmo_tbl"
 
+
     End Sub
     Private Sub txtUser_Leave(ByVal sender As Object, ByVal e As System.EventArgs) Handles txtUser.Leave
         If txtUser.Text = "" Then
