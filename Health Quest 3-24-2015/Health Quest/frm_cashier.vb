@@ -52,7 +52,7 @@ Public Class frm_cashier
     End Sub
 
     Private Sub Button6_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button6.Click
-        rpt_hmo.Show()
+
     End Sub
     Private Sub btnPaid_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnPaid.Click
         Dim dtselect As New DataTable

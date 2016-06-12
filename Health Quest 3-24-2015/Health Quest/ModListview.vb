@@ -782,43 +782,6 @@ Module ModListview
             .BackColor = Color.White
         End With
     End Sub
-    '' ------------------------- ITEM PREVIEW --------------------------------------''
-    Sub Load_ip_lv()
-        Dim dt As New DataTable
-        Dim strrec = "select a.item,b.quantity,b.cost from item_type_tbl as a, inventory_tbl as b where a.item_id = b.item_id"
-
-        If conn.SelectRec(strrec, dt) = True Then
-            frm_preview2.lv_preview.Items.Clear()
-            For i = 0 To (dt.Rows.Count - 1)
-                Dim lv As New ListViewItem
-                With dt.Rows(i)
-                    lv.Text = .Item(0).ToString
-                    lv.SubItems.Add(i + 1)
-                    lv.SubItems.Add(.Item(0).ToString)
-                    lv.SubItems.Add(.Item(1).ToString)
-                    lv.SubItems.Add(.Item(2).ToString)
-                    frm_preview2.lv_preview.Items.Add(lv)
-                End With
-            Next
-            dt.Dispose()
-        End If
-
-    End Sub
-
-    Sub form_ip_lv()
-        With frm_preview2.lv_preview
-            .Clear()
-            .Columns.Add("", 0)
-            .Columns.Add("NO.", 35)
-            .Columns.Add("Item Name", 182)
-            .Columns.Add("Quantity", 115)
-            .Columns.Add("Cost", 115)
-            .View = View.Details
-            .FullRowSelect = True
-            .GridLines = True
-            .BackColor = Color.DarkGray
-        End With
-    End Sub
 
     '' ------------------------- SET PACKAGE --------------------------------------''
     Sub Load_sp_lv()
@@ -1423,60 +1386,6 @@ Module ModListview
             .FullRowSelect = True
             .GridLines = True
         End With
-    End Sub
-
-    '' ------------------------- SET PACKAGE PREVIEW2 --------------------------------------''
-    Sub Load_sp1_lv()
-        Dim dt As New DataTable
-        Dim strrec = "Select * from package_service_tbl where package_name = '" & frm_receptionist.TextBox3.Text & "'"
-
-        If conn.SelectRec(strrec, dt) = True Then
-            frm_preview2.lv_preview.Items.Clear()
-            For i = 0 To (dt.Rows.Count - 1)
-                Dim lv As New ListViewItem
-                With dt.Rows(i)
-                    lv.Text = .Item(0).ToString
-                    lv.SubItems.Add(i + 1)
-                    lv.SubItems.Add(.Item(2).ToString)
-                    lv.SubItems.Add(.Item(3).ToString)
-                    frm_preview2.lv_preview.Items.Add(lv)
-                End With
-            Next
-            dt.Dispose()
-        End If
-
-    End Sub
-
-    Sub form_sp1_lv()
-        With frm_preview2.lv_preview
-            .Clear()
-            .Columns.Add("", 0)
-            .Columns.Add("NO.", 35)
-            .Columns.Add("Service Type", 175)
-            .Columns.Add("Gross", 115)
-            .View = View.Details
-            .FullRowSelect = True
-            .GridLines = True
-            .BackColor = Color.White
-        End With
-    End Sub
-
-
-    '' ------------------------- TOTAL PACKAGE 2--------------------------------------''
-    Sub Load_total_text2()
-        Dim dt As New DataTable
-        Dim strrec = "select price from package_tbl where pack_name = '" & frm_receptionist.TextBox3.Text & "' "
-
-        If conn.SelectRec(strrec, dt) = True Then
-            For i = 0 To (dt.Rows.Count - 1)
-
-                With dt.Rows(i)
-                    frm_preview2.txttotal.Text = .Item(0).ToString
-
-                End With
-            Next
-            dt.Dispose()
-        End If
     End Sub
 
 

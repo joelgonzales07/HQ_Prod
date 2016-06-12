@@ -58,10 +58,6 @@ Public Class frm_SetItem
     Private Sub btnCLEAR_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnCLEAR.Click
         clear()
     End Sub
-
-    Private Sub btnpreview_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
-        frm_preview2.Show()
-    End Sub
     Private Sub txtSearch_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles txtSearch.TextChanged
         lv_ri.Clear()
         form_sri_lv()

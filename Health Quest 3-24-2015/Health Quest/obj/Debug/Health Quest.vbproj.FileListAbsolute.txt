@@ -322,3 +322,55 @@ C:\Users\Administrator\Desktop\installer\HQ_Prod\HQ_Prod\Health Quest 3-24-2015\
 C:\Users\Administrator\Desktop\installer\HQ_Prod\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\Debug\Health_Quest.rpt_unbalance.resources
 C:\Users\Administrator\Desktop\installer\HQ_Prod\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\Debug\Health Quest.vbproj.GenerateResource.Cache
 C:\Users\Administrator\Desktop\installer\HQ_Prod\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\Debug\Health_Quest.frm_queueitem.resources
+C:\Users\Envy4\Desktop\github\HQ_Prod\Health Quest 3-24-2015\Health Quest\bin\Debug\Health Quest.exe.config
+C:\Users\Envy4\Desktop\github\HQ_Prod\Health Quest 3-24-2015\Health Quest\bin\Debug\Health Quest.exe
+C:\Users\Envy4\Desktop\github\HQ_Prod\Health Quest 3-24-2015\Health Quest\bin\Debug\Health Quest.pdb
+C:\Users\Envy4\Desktop\github\HQ_Prod\Health Quest 3-24-2015\Health Quest\bin\Debug\Health Quest.xml
+C:\Users\Envy4\Desktop\github\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Envy4\Desktop\github\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\Debug\Health_Quest.frm_playlist.resources
+C:\Users\Envy4\Desktop\github\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\Debug\Health_Quest.frm_process.resources
+C:\Users\Envy4\Desktop\github\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\Debug\Health_Quest.frm_queue.resources
+C:\Users\Envy4\Desktop\github\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\Debug\Health_Quest.frm_queueitem.resources
+C:\Users\Envy4\Desktop\github\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\Debug\Health_Quest.frm_readersfee.resources
+C:\Users\Envy4\Desktop\github\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\Debug\Health_Quest.frm_readings.resources
+C:\Users\Envy4\Desktop\github\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\Debug\Health_Quest.frm_services.resources
+C:\Users\Envy4\Desktop\github\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\Debug\Health_Quest.mntr_sales.resources
+C:\Users\Envy4\Desktop\github\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\Debug\Health_Quest.rpt_or.resources
+C:\Users\Envy4\Desktop\github\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\Debug\Health_Quest.rpt_Sales.resources
+C:\Users\Envy4\Desktop\github\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\Debug\Health_Quest.frm_Balance.resources
+C:\Users\Envy4\Desktop\github\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\Debug\Health_Quest.frm_cashier.resources
+C:\Users\Envy4\Desktop\github\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\Debug\Health_Quest.frm_hmo.resources
+C:\Users\Envy4\Desktop\github\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\Debug\Health_Quest.frm_receptionist.resources
+C:\Users\Envy4\Desktop\github\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\Debug\Health_Quest.frm_request_item.resources
+C:\Users\Envy4\Desktop\github\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\Debug\Health_Quest.frm_Staff.resources
+C:\Users\Envy4\Desktop\github\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\Debug\Health_Quest.frm_uploadexcel.resources
+C:\Users\Envy4\Desktop\github\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\Debug\Health_Quest.mntr_doctor.resources
+C:\Users\Envy4\Desktop\github\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\Debug\Health_Quest.mntr_inventory.resources
+C:\Users\Envy4\Desktop\github\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\Debug\Health_Quest.mntr_patient.resources
+C:\Users\Envy4\Desktop\github\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\Debug\Health_Quest.frm_changepassword.resources
+C:\Users\Envy4\Desktop\github\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\Debug\Health_Quest.frm_adminAuthenticate.resources
+C:\Users\Envy4\Desktop\github\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\Debug\Health_Quest.frm_consultation.resources
+C:\Users\Envy4\Desktop\github\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\Debug\Health_Quest.frm_department.resources
+C:\Users\Envy4\Desktop\github\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\Debug\Health_Quest.frm_doctor.resources
+C:\Users\Envy4\Desktop\github\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\Debug\Health_Quest.frm_SetItem.resources
+C:\Users\Envy4\Desktop\github\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\Debug\Health_Quest.frm_item.resources
+C:\Users\Envy4\Desktop\github\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\Debug\Health_Quest.frm_login.resources
+C:\Users\Envy4\Desktop\github\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\Debug\Health_Quest.frm_package.resources
+C:\Users\Envy4\Desktop\github\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\Debug\Health_Quest.frm_price.resources
+C:\Users\Envy4\Desktop\github\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\Debug\Health_Quest.frm_schedule.resources
+C:\Users\Envy4\Desktop\github\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\Debug\Health_Quest.frm_serviceType.resources
+C:\Users\Envy4\Desktop\github\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\Debug\Health_Quest.frm_setpackage.resources
+C:\Users\Envy4\Desktop\github\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\Debug\Health_Quest.frm_specialization.resources
+C:\Users\Envy4\Desktop\github\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\Debug\Health_Quest.frm_user.resources
+C:\Users\Envy4\Desktop\github\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\Debug\Health_Quest.MDI_Administrator.resources
+C:\Users\Envy4\Desktop\github\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\Debug\Health_Quest.mntr_que.resources
+C:\Users\Envy4\Desktop\github\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\Debug\Health_Quest.mntr_service.resources
+C:\Users\Envy4\Desktop\github\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\Debug\Health_Quest.Resources.resources
+C:\Users\Envy4\Desktop\github\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\Debug\Health_Quest.Report_InventoryForm.resources
+C:\Users\Envy4\Desktop\github\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\Debug\Health_Quest.rpt_balance.resources
+C:\Users\Envy4\Desktop\github\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\Debug\Health_Quest.Report_RequestForm1.resources
+C:\Users\Envy4\Desktop\github\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\Debug\Health_Quest.rpt_statement.resources
+C:\Users\Envy4\Desktop\github\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\Debug\Health Quest.vbproj.GenerateResource.Cache
+C:\Users\Envy4\Desktop\github\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\Debug\Health Quest.exe
+C:\Users\Envy4\Desktop\github\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\Debug\Health Quest.xml
+C:\Users\Envy4\Desktop\github\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\Debug\Health Quest.pdb

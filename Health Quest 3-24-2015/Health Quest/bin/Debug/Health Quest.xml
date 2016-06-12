@@ -22,10 +22,6 @@ HealthQuest
 </member><member name="M:Health_Quest.frm_specialization.clear">
  FUNTION
 
-</member><member name="T:Health_Quest.DataSet1">
-	<summary>
-Represents a strongly typed in-memory cache of data.
-</summary>
 </member>
 </members>
 </doc>
