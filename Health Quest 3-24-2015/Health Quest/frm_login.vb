@@ -7,6 +7,7 @@ Public Class frm_login
     Private Sub txtUser_Leave(ByVal sender As Object, ByVal e As System.EventArgs) Handles txtUser.Leave
         If txtUser.Text = "" Then
             txtUser.Text = "USERNAME"
+            MessageBox.Show("unyol paker")
         End If
     End Sub
     Private Sub txtPass_Leave(ByVal sender As Object, ByVal e As System.EventArgs) Handles txtPass.Leave
