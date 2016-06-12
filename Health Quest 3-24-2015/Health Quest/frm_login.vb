@@ -4,6 +4,7 @@ Public Class frm_login
         Me.CenterToParent()
         'Authenticate_Administrator(s)
 
+
         Dim select_query As String = "select * from hmo_tbl"
 
     End Sub
