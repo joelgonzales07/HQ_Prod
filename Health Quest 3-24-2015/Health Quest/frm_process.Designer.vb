@@ -69,6 +69,8 @@ Partial Class frm_process
         Me.Label5 = New System.Windows.Forms.Label
         Me.txttrid = New System.Windows.Forms.TextBox
         Me.chkHome = New System.Windows.Forms.CheckBox
+        Me.Label20 = New System.Windows.Forms.Label
+        Me.txtapprovenum = New System.Windows.Forms.TextBox
         CType(Me.dt_cash, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.dt_hmo, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -173,9 +175,9 @@ Partial Class frm_process
         'btnCANCEL
         '
         Me.btnCANCEL.BackColor = System.Drawing.Color.Transparent
-        Me.btnCANCEL.Font = New System.Drawing.Font("Sylfaen", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnCANCEL.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnCANCEL.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.btnCANCEL.Location = New System.Drawing.Point(657, 604)
+        Me.btnCANCEL.Location = New System.Drawing.Point(657, 633)
         Me.btnCANCEL.Name = "btnCANCEL"
         Me.btnCANCEL.Size = New System.Drawing.Size(99, 35)
         Me.btnCANCEL.TabIndex = 156
@@ -185,9 +187,9 @@ Partial Class frm_process
         'btnPROCEED
         '
         Me.btnPROCEED.BackColor = System.Drawing.Color.Transparent
-        Me.btnPROCEED.Font = New System.Drawing.Font("Sylfaen", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnPROCEED.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnPROCEED.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.btnPROCEED.Location = New System.Drawing.Point(529, 604)
+        Me.btnPROCEED.Location = New System.Drawing.Point(529, 633)
         Me.btnPROCEED.Name = "btnPROCEED"
         Me.btnPROCEED.Size = New System.Drawing.Size(99, 35)
         Me.btnPROCEED.TabIndex = 155
@@ -257,7 +259,7 @@ Partial Class frm_process
         Me.Label8.BackColor = System.Drawing.Color.Transparent
         Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold)
         Me.Label8.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Label8.Location = New System.Drawing.Point(405, 553)
+        Me.Label8.Location = New System.Drawing.Point(405, 578)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(101, 15)
         Me.Label8.TabIndex = 164
@@ -267,7 +269,7 @@ Partial Class frm_process
         '
         Me.txtapproveby.Enabled = False
         Me.txtapproveby.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtapproveby.Location = New System.Drawing.Point(529, 550)
+        Me.txtapproveby.Location = New System.Drawing.Point(529, 575)
         Me.txtapproveby.Name = "txtapproveby"
         Me.txtapproveby.Size = New System.Drawing.Size(227, 21)
         Me.txtapproveby.TabIndex = 163
@@ -278,7 +280,7 @@ Partial Class frm_process
         Me.Label9.BackColor = System.Drawing.Color.Transparent
         Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold)
         Me.Label9.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Label9.Location = New System.Drawing.Point(405, 580)
+        Me.Label9.Location = New System.Drawing.Point(405, 603)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(112, 15)
         Me.Label9.TabIndex = 166
@@ -288,7 +290,7 @@ Partial Class frm_process
         '
         Me.txtreqby.Enabled = False
         Me.txtreqby.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtreqby.Location = New System.Drawing.Point(529, 577)
+        Me.txtreqby.Location = New System.Drawing.Point(529, 600)
         Me.txtreqby.Name = "txtreqby"
         Me.txtreqby.Size = New System.Drawing.Size(227, 21)
         Me.txtreqby.TabIndex = 165
@@ -390,7 +392,7 @@ Partial Class frm_process
         'Button1
         '
         Me.Button1.BackColor = System.Drawing.Color.Transparent
-        Me.Button1.Font = New System.Drawing.Font("Sylfaen", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.SystemColors.ControlText
         Me.Button1.Location = New System.Drawing.Point(367, 307)
         Me.Button1.Name = "Button1"
@@ -402,7 +404,7 @@ Partial Class frm_process
         'Button2
         '
         Me.Button2.BackColor = System.Drawing.Color.Transparent
-        Me.Button2.Font = New System.Drawing.Font("Sylfaen", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.ForeColor = System.Drawing.SystemColors.ControlText
         Me.Button2.Location = New System.Drawing.Point(367, 238)
         Me.Button2.Name = "Button2"
@@ -606,13 +608,36 @@ Partial Class frm_process
         Me.chkHome.Text = "Home Service?"
         Me.chkHome.UseVisualStyleBackColor = False
         '
+        'Label20
+        '
+        Me.Label20.AutoSize = True
+        Me.Label20.BackColor = System.Drawing.Color.Transparent
+        Me.Label20.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold)
+        Me.Label20.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.Label20.Location = New System.Drawing.Point(405, 553)
+        Me.Label20.Name = "Label20"
+        Me.Label20.Size = New System.Drawing.Size(92, 15)
+        Me.Label20.TabIndex = 196
+        Me.Label20.Text = "APPROVED #"
+        '
+        'txtapprovenum
+        '
+        Me.txtapprovenum.Enabled = False
+        Me.txtapprovenum.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtapprovenum.Location = New System.Drawing.Point(529, 550)
+        Me.txtapprovenum.Name = "txtapprovenum"
+        Me.txtapprovenum.Size = New System.Drawing.Size(227, 21)
+        Me.txtapprovenum.TabIndex = 195
+        '
         'frm_process
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.Health_Quest.My.Resources.Resources.bgMain
-        Me.ClientSize = New System.Drawing.Size(764, 648)
+        Me.ClientSize = New System.Drawing.Size(764, 680)
         Me.ControlBox = False
+        Me.Controls.Add(Me.Label20)
+        Me.Controls.Add(Me.txtapprovenum)
         Me.Controls.Add(Me.chkHome)
         Me.Controls.Add(Me.txttrid)
         Me.Controls.Add(Me.Label5)
@@ -716,4 +741,6 @@ Partial Class frm_process
     Friend WithEvents Label5 As System.Windows.Forms.Label
     Friend WithEvents txttrid As System.Windows.Forms.TextBox
     Friend WithEvents chkHome As System.Windows.Forms.CheckBox
+    Friend WithEvents Label20 As System.Windows.Forms.Label
+    Friend WithEvents txtapprovenum As System.Windows.Forms.TextBox
 End Class

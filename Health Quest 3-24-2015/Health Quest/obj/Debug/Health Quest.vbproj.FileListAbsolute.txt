@@ -280,10 +280,8 @@ C:\Users\Administrator\Desktop\installer\HQ_Prod\HQ_Prod\Health Quest 3-24-2015\
 C:\Users\Administrator\Desktop\installer\HQ_Prod\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\Debug\Health_Quest.frm_readings.resources
 C:\Users\Administrator\Desktop\installer\HQ_Prod\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\Debug\Health_Quest.frm_services.resources
 C:\Users\Administrator\Desktop\installer\HQ_Prod\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\Debug\Health_Quest.mntr_sales.resources
-C:\Users\Administrator\Desktop\installer\HQ_Prod\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\Debug\Health_Quest.rpt_balancemasterlist.resources
 C:\Users\Administrator\Desktop\installer\HQ_Prod\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\Debug\Health_Quest.rpt_or.resources
 C:\Users\Administrator\Desktop\installer\HQ_Prod\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\Debug\Health_Quest.rpt_Sales.resources
-C:\Users\Administrator\Desktop\installer\HQ_Prod\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\Debug\Health_Quest.rpt_hmo.resources
 C:\Users\Administrator\Desktop\installer\HQ_Prod\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\Debug\Health_Quest.frm_Balance.resources
 C:\Users\Administrator\Desktop\installer\HQ_Prod\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\Debug\Health_Quest.frm_cashier.resources
 C:\Users\Administrator\Desktop\installer\HQ_Prod\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\Debug\Health_Quest.frm_hmo.resources
@@ -294,7 +292,6 @@ C:\Users\Administrator\Desktop\installer\HQ_Prod\HQ_Prod\Health Quest 3-24-2015\
 C:\Users\Administrator\Desktop\installer\HQ_Prod\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\Debug\Health_Quest.mntr_doctor.resources
 C:\Users\Administrator\Desktop\installer\HQ_Prod\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\Debug\Health_Quest.mntr_inventory.resources
 C:\Users\Administrator\Desktop\installer\HQ_Prod\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\Debug\Health_Quest.mntr_patient.resources
-C:\Users\Administrator\Desktop\installer\HQ_Prod\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\Debug\Health_Quest.frm_addpackage.resources
 C:\Users\Administrator\Desktop\installer\HQ_Prod\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\Debug\Health_Quest.frm_changepassword.resources
 C:\Users\Administrator\Desktop\installer\HQ_Prod\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\Debug\Health_Quest.frm_adminAuthenticate.resources
 C:\Users\Administrator\Desktop\installer\HQ_Prod\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\Debug\Health_Quest.frm_consultation.resources
@@ -304,7 +301,6 @@ C:\Users\Administrator\Desktop\installer\HQ_Prod\HQ_Prod\Health Quest 3-24-2015\
 C:\Users\Administrator\Desktop\installer\HQ_Prod\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\Debug\Health_Quest.frm_item.resources
 C:\Users\Administrator\Desktop\installer\HQ_Prod\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\Debug\Health_Quest.frm_login.resources
 C:\Users\Administrator\Desktop\installer\HQ_Prod\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\Debug\Health_Quest.frm_package.resources
-C:\Users\Administrator\Desktop\installer\HQ_Prod\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\Debug\Health_Quest.frm_preview2.resources
 C:\Users\Administrator\Desktop\installer\HQ_Prod\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\Debug\Health_Quest.frm_price.resources
 C:\Users\Administrator\Desktop\installer\HQ_Prod\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\Debug\Health_Quest.frm_schedule.resources
 C:\Users\Administrator\Desktop\installer\HQ_Prod\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\Debug\Health_Quest.frm_serviceType.resources
@@ -319,7 +315,6 @@ C:\Users\Administrator\Desktop\installer\HQ_Prod\HQ_Prod\Health Quest 3-24-2015\
 C:\Users\Administrator\Desktop\installer\HQ_Prod\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\Debug\Health_Quest.rpt_balance.resources
 C:\Users\Administrator\Desktop\installer\HQ_Prod\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\Debug\Health_Quest.Report_RequestForm1.resources
 C:\Users\Administrator\Desktop\installer\HQ_Prod\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\Debug\Health_Quest.rpt_statement.resources
-C:\Users\Administrator\Desktop\installer\HQ_Prod\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\Debug\Health_Quest.rpt_unbalance.resources
 C:\Users\Administrator\Desktop\installer\HQ_Prod\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\Debug\Health Quest.vbproj.GenerateResource.Cache
 C:\Users\Administrator\Desktop\installer\HQ_Prod\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\Debug\Health_Quest.frm_queueitem.resources
 C:\Users\Envy4\Desktop\github\HQ_Prod\Health Quest 3-24-2015\Health Quest\bin\Debug\Health Quest.exe.config

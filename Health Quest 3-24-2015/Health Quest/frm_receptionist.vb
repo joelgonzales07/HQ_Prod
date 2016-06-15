@@ -278,19 +278,17 @@ Public Class frm_receptionist
     Private Sub Button8_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnPROCEED.Click
         If paystat = 1 Then
             frm_process.Show()
-            frm_process.hmopatient()
         ElseIf paystat = 2 Then
             frm_process.Show()
-            frm_process.hmopatient()
         ElseIf paystat = 3 Then
             frm_process.Show()
-            frm_process.hmopatient()
             frm_process.lv_hmoproceed.Enabled = False
             frm_process.lv_serviceproceed.Enabled = False
             frm_process.txthmonum.Enabled = False
             frm_process.cmb_hmo.Enabled = False
             frm_process.hmotrue = False
             frm_process.txtapproveby.Enabled = False
+            frm_process.txtapprovenum.Enabled = False
             frm_process.txtreqby.Enabled = False
             frm_process.txttr.Enabled = False
             frm_process.txtmi.Enabled = False
@@ -298,13 +296,13 @@ Public Class frm_receptionist
             frm_process.btnPROCEED.Enabled = False
         ElseIf paystat = 4 Then
             frm_process.Show()
-            frm_process.hmopatient()
             frm_process.lv_hmoproceed.Enabled = False
             frm_process.lv_serviceproceed.Enabled = False
             frm_process.txthmonum.Enabled = False
             frm_process.cmb_hmo.Enabled = False
             frm_process.hmotrue = False
             frm_process.txtapproveby.Enabled = False
+            frm_process.txtapprovenum.Enabled = False
             frm_process.txtreqby.Enabled = False
             frm_process.txttr.Enabled = False
             frm_process.txtmi.Enabled = False
@@ -313,7 +311,6 @@ Public Class frm_receptionist
         ElseIf paystat = 0 Then
             If lv_user.Items.Count > 0 Then
                 frm_process.Show()
-                frm_process.hmopatient()
             End If
         End If
         'Dim guid2 As System.Guid = System.Guid.NewGuid()

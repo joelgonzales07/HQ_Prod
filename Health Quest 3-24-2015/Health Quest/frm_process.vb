@@ -9,10 +9,12 @@ Public Class frm_process
     Dim compid As String = ""
     Dim celledit As Boolean = True
     Dim prio As String = "No"
+    Dim hmo_id As String
 
     Sub hmo_populated()
         If dt_hmo.RowCount = 0 Then
             txtapproveby.Enabled = False
+            txtapprovenum.Enabled = False
             txtreqby.Enabled = False
             txttr.Enabled = False
             txtmi.Enabled = False
@@ -22,6 +24,7 @@ Public Class frm_process
             hmotrue = False
         Else
             txtapproveby.Enabled = True
+            txtapprovenum.Enabled = True
             txtreqby.Enabled = True
             txttr.Enabled = True
             txtmi.Enabled = True
@@ -86,7 +89,7 @@ Public Class frm_process
         Dim sra As New StreamReader("IP_CONFIG.txt")
         Dim x As String = sra.ReadToEnd()
         Dim conndt As New Odbc.OdbcConnection("Driver={MySQL ODBC 3.51 Driver};Server=" & x & ";user=root;PWD=123456;Database=hq_db")
-        Dim cmd As New Odbc.OdbcCommand("SELECT testservice_id, IF (service_table = 'service_type_tbl', (SELECT stype_name FROM service_type_tbl WHERE stype_id = testservice_tbl.service_id), (SELECT pack_name FROM package_tbl WHERE pack_id = testservice_tbl.service_id)) AS `Service`, IF (service_table = 'service_type_tbl', (SELECT service_net FROM service_price_tbl WHERE stype_id = testservice_tbl.service_id), (SELECT net FROM package_tbl WHERE pack_id = testservice_tbl.service_id)) AS `Gross Pay`, disc_perc as `Discount %`, payment_status FROM testservice_tbl WHERE test_id = '" + frm_receptionist.trID + "' and hmo_status = 'hmo'", conndt)
+        Dim cmd As New Odbc.OdbcCommand("SELECT testservice_id, IF (service_table = 'service_type_tbl', (SELECT stype_name FROM service_type_tbl WHERE stype_id = testservice_tbl.service_id), (SELECT pack_name FROM package_tbl WHERE pack_id = testservice_tbl.service_id)) AS `Service`, IF (service_table = 'service_type_tbl', (SELECT gross FROM hmo_serv_tbl WHERE serv_id = testservice_tbl.service_id AND hmo_id = '" + hmo_id + "'), '0') AS `Gross Pay`, disc_perc AS `Discount %`, payment_status FROM testservice_tbl WHERE test_id = '" + frm_receptionist.trID + "' AND hmo_status = 'hmo'", conndt)
         Dim da As New Odbc.OdbcDataAdapter(cmd)
         Dim ds As New DataSet()
         da.Fill(ds)
@@ -95,18 +98,7 @@ Public Class frm_process
         dt_hmo.Columns("testservice_id").Visible = False
         dt_hmo.Columns("Service").ReadOnly = True
         dt_hmo.Columns("Gross Pay").ReadOnly = True
-        Dim dttbox As New DataGridViewTextBoxColumn
-        dttbox.HeaderText = "New Value"
-        dttbox.Name = "newval"
-        dttbox.Width = 30
-        dt_hmo.Columns.Add(dttbox)
-        dt_hmo.Columns("newval").ReadOnly = True
-        For i As Integer = 0 To dt_hmo.Rows.Count - 1
-            Dim disc As Double = Convert.ToDouble(dt_hmo.Rows(i).Cells("Discount %").Value) / 100
-            Dim less As Double = Convert.ToDouble(dt_hmo.Rows(i).Cells("Gross Pay").Value) * disc
-            Dim total As Double = Convert.ToDouble(dt_hmo.Rows(i).Cells("Gross Pay").Value) - less
-            dt_hmo.Rows(i).Cells("newval").Value = total
-        Next
+        dt_hmo.Columns("Discount %").Visible = False
     End Sub
 
     Public Sub counthmo()
@@ -127,15 +119,17 @@ Public Class frm_process
 
     Sub hmopatient()
         Dim select_query As String = ""
-        select_query = "select (select hmo_card from hmo_tbl where Record_ID = hmopatient_tbl.hmo_id), hmo_number,(select company_name from company_tbl where company_id = hmopatient_tbl.company_id), approved_by, requested_by from hmopatient_tbl where test_id = '" + frm_receptionist.trID + "'"
+        select_query = "select hmo_id, (select hmo_card from hmo_tbl where Record_ID = hmopatient_tbl.hmo_id), hmo_number,(select company_name from company_tbl where company_id = hmopatient_tbl.company_id), approved_by, requested_by, approval_num from hmopatient_tbl where test_id = '" + frm_receptionist.trID + "'"
         Dim dtsel As New DataTable
         If conn.SelectRec(select_query, dtsel) Then
             If dtsel.Rows.Count > 0 Then
-                cmb_hmo.Text = dtsel.Rows(0).Item(0).ToString
-                txthmonum.Text = dtsel.Rows(0).Item(1).ToString
-                cmb_comp.Text = dtsel.Rows(0).Item(2).ToString
-                txtapproveby.Text = dtsel.Rows(0).Item(3).ToString
-                txtreqby.Text = dtsel.Rows(0).Item(4).ToString
+                hmo_id = dtsel.Rows(0).Item(0).ToString
+                cmb_hmo.Text = dtsel.Rows(0).Item(1).ToString
+                txthmonum.Text = dtsel.Rows(0).Item(2).ToString
+                cmb_comp.Text = dtsel.Rows(0).Item(3).ToString
+                txtapproveby.Text = dtsel.Rows(0).Item(4).ToString
+                txtreqby.Text = dtsel.Rows(0).Item(5).ToString
+                txtapprovenum.Text = dtsel.Rows(0).Item(6).ToString
                 dtsel.Dispose()
             End If
         End If
@@ -167,6 +161,7 @@ Public Class frm_process
         frm_receptionist.Enabled = True
     End Sub
     Private Sub frm_process_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+        hmopatient()
         frm_receptionist.Enabled = False
         form_serviceproceed_lv()
         load_serviceproceed_lv()
@@ -246,6 +241,8 @@ Public Class frm_process
             frm_hmo.Show()
         Else
             hmoid = hmo(cmb_hmo.SelectedIndex - 1)
+            hmo_id = hmoid
+            dt_hmo_pop()
             Dim select_query As String = "select contact from hmo_tbl where Record_ID = '" + hmoid + "'"
             Dim dtsel As New DataTable
             If conn.SelectRec(select_query, dtsel) = True Then
@@ -288,9 +285,9 @@ Public Class frm_process
                 Dim edit_query As String = ""
                 If conn.SelectRec(select_query, dtsel) = True Then
                     If dtsel.Rows.Count > 0 Then
-                        edit_query = "update hmopatient_tbl set company_id = '" + compid + "', hmo_id = '" + hmoid + "', hmo_number = '" + txthmonum.Text + "', approved_by = '" + txtapproveby.Text + "', requested_by = '" + txtreqby.Text + "' where test_id = '" + frm_receptionist.trID + "'"
+                        edit_query = "update hmopatient_tbl set company_id = '" + compid + "', hmo_id = '" + hmoid + "', hmo_number = '" + txthmonum.Text + "', approved_by = '" + txtapproveby.Text + "', requested_by = '" + txtreqby.Text + "', approval_num = '" + txtapprovenum.Text + "' where test_id = '" + frm_receptionist.trID + "'"
                     Else
-                        edit_query = "insert into hmopatient_tbl values(null, '" + frm_receptionist.trID + "', '" + hmoid + "', '" + txthmonum.Text + "', '" + compid + "','" + txtapproveby.Text + "', '" + txtreqby.Text + "')"
+                        edit_query = "insert into hmopatient_tbl values(null, '" + frm_receptionist.trID + "', '" + hmoid + "', '" + txthmonum.Text + "', '" + compid + "','" + txtapproveby.Text + "', '" + txtreqby.Text + "', '" + txtapprovenum.Text + "')"
                     End If
                 End If
                 If conn.ModRec(edit_query) = True Then

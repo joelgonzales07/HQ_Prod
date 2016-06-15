@@ -1661,6 +1661,7 @@ Module ModListview
                 frm_process.cmb_comp.Enabled = True
                 frm_process.hmotrue = True
                 frm_process.txtapproveby.Enabled = True
+                frm_process.txtapprovenum.Enabled = True
                 frm_process.txtreqby.Enabled = True
             Else
                 frm_process.txthmonum.Enabled = False
@@ -1668,6 +1669,7 @@ Module ModListview
                 frm_process.cmb_comp.Enabled = False
                 frm_process.hmotrue = False
                 frm_process.txtapproveby.Enabled = False
+                frm_process.txtapprovenum.Enabled = False
                 frm_process.txtreqby.Enabled = False
             End If
             frm_process.lv_hmoproceed.Items.Clear()
