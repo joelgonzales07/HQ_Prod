@@ -30,13 +30,13 @@ Partial Class frm_readings
         Me.txtpname = New System.Windows.Forms.TextBox
         Me.Label5 = New System.Windows.Forms.Label
         Me.Panel2 = New System.Windows.Forms.Panel
+        Me.rtxtreading = New System.Windows.Forms.RichTextBox
         Me.cmb_serv = New System.Windows.Forms.ComboBox
         Me.Label6 = New System.Windows.Forms.Label
         Me.Label7 = New System.Windows.Forms.Label
         Me.Button14 = New System.Windows.Forms.Button
         Me.Label2 = New System.Windows.Forms.Label
         Me.cbodocname = New System.Windows.Forms.ComboBox
-        Me.rtxtreading = New System.Windows.Forms.RichTextBox
         Me.btnSave = New System.Windows.Forms.Button
         Me.Label4 = New System.Windows.Forms.Label
         Me.txttotalcost = New System.Windows.Forms.TextBox
@@ -133,6 +133,14 @@ Partial Class frm_readings
         Me.Panel2.Size = New System.Drawing.Size(839, 196)
         Me.Panel2.TabIndex = 165
         '
+        'rtxtreading
+        '
+        Me.rtxtreading.Location = New System.Drawing.Point(19, 65)
+        Me.rtxtreading.Name = "rtxtreading"
+        Me.rtxtreading.Size = New System.Drawing.Size(803, 115)
+        Me.rtxtreading.TabIndex = 168
+        Me.rtxtreading.Text = ""
+        '
         'cmb_serv
         '
         Me.cmb_serv.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -193,20 +201,13 @@ Partial Class frm_readings
         '
         'cbodocname
         '
+        Me.cbodocname.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cbodocname.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cbodocname.FormattingEnabled = True
         Me.cbodocname.Location = New System.Drawing.Point(192, 89)
         Me.cbodocname.Name = "cbodocname"
         Me.cbodocname.Size = New System.Drawing.Size(264, 23)
         Me.cbodocname.TabIndex = 168
-        '
-        'rtxtreading
-        '
-        Me.rtxtreading.Location = New System.Drawing.Point(19, 65)
-        Me.rtxtreading.Name = "rtxtreading"
-        Me.rtxtreading.Size = New System.Drawing.Size(803, 115)
-        Me.rtxtreading.TabIndex = 168
-        Me.rtxtreading.Text = ""
         '
         'btnSave
         '

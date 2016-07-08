@@ -134,6 +134,12 @@
       <DependentUpon>CrystalReport2.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="frm_hmoitem.Designer.vb">
+      <DependentUpon>frm_hmoitem.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_hmoitem.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frm_playlist.Designer.vb">
       <DependentUpon>frm_playlist.vb</DependentUpon>
     </Compile>
@@ -436,6 +442,10 @@
     <EmbeddedResource Include="CrystalReport2.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>CrystalReport2.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_hmoitem.resx">
+      <DependentUpon>frm_hmoitem.vb</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="frm_playlist.resx">
       <DependentUpon>frm_playlist.vb</DependentUpon>

@@ -52,12 +52,17 @@ Public Class frm_serviceType
 
     Private Sub btnADD_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnADD.Click
         If txtSID.Text = "" Then
+            base = True
             edit_query = "insert into service_type_tbl values(null,'" & service_class & "', '" + txtSname.Text + "', '" + stvar + "', 'Active')"
         Else
+            base = False
             edit_query = "update service_type_tbl set stype_class = '" & service_class & "', stype_name = '" + txtSname.Text + "', scat_id = '" + stvar + "' where stype_id = '" + txtSID.Text + "'"
         End If
         If conn.ModRec(edit_query) = True Then
             MessageBox.Show("Record(s) Update Successful", "Message ", MessageBoxButtons.OK, MessageBoxIcon.Information)
+            If base = True Then
+
+            End If
             Call form()
         End If
     End Sub
