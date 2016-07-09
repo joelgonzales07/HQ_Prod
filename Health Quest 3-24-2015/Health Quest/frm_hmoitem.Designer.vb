@@ -234,7 +234,7 @@ Partial Class frm_hmoitem
         Me.btnImport.Name = "btnImport"
         Me.btnImport.Size = New System.Drawing.Size(78, 23)
         Me.btnImport.TabIndex = 63
-        Me.btnImport.Text = "Button1"
+        Me.btnImport.Text = "Import"
         Me.btnImport.UseVisualStyleBackColor = True
         '
         'frm_hmoitem
