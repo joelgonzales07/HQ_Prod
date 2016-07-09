@@ -1,7 +1,6 @@
 ﻿Public Class frm_uploadexcel
     Dim conn As New HQ_Connection
 
-
     Private Sub frm_uploadexcel_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
         OpenFileDialog1.ShowDialog()
         TextBox1.Text = OpenFileDialog1.FileName
