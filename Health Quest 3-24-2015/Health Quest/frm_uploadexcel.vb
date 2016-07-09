@@ -4,6 +4,7 @@ Public Class frm_uploadexcel
     Dim conn As New HQ_Connection
     Dim query As New Dictionary(Of String, String)
 
+
     Private Sub frm_uploadexcel_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
         getQuery()
         TextBox1.Enabled = False

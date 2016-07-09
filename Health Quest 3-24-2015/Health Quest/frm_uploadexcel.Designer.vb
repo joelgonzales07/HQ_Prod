@@ -60,7 +60,7 @@ Partial Class frm_uploadexcel
         '
         Me.btnSaves.BackColor = System.Drawing.Color.Transparent
         Me.btnSaves.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.btnSaves.Location = New System.Drawing.Point(441, 37)
+        Me.btnSaves.Location = New System.Drawing.Point(446, 37)
         Me.btnSaves.Name = "btnSaves"
         Me.btnSaves.Size = New System.Drawing.Size(120, 20)
         Me.btnSaves.TabIndex = 74
