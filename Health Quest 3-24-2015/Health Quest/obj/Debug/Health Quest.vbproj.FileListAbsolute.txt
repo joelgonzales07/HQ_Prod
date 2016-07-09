@@ -369,3 +369,4 @@ C:\Users\Envy4\Desktop\github\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\De
 C:\Users\Envy4\Desktop\github\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\Debug\Health Quest.exe
 C:\Users\Envy4\Desktop\github\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\Debug\Health Quest.xml
 C:\Users\Envy4\Desktop\github\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\Debug\Health Quest.pdb
+C:\Users\Envy4\Desktop\github\HQ_Prod\Health Quest 3-24-2015\Health Quest\obj\Debug\Health_Quest.frm_hmoitem.resources

@@ -37,6 +37,7 @@ Partial Class MDI_Administrator
         Me.Button7 = New System.Windows.Forms.Button
         Me.Button6 = New System.Windows.Forms.Button
         Me.PanelMonitoring = New System.Windows.Forms.Panel
+        Me.Button10 = New System.Windows.Forms.Button
         Me.Button26 = New System.Windows.Forms.Button
         Me.Button13 = New System.Windows.Forms.Button
         Me.Button14 = New System.Windows.Forms.Button
@@ -49,7 +50,7 @@ Partial Class MDI_Administrator
         Me.Button22 = New System.Windows.Forms.Button
         Me.Button23 = New System.Windows.Forms.Button
         Me.Button24 = New System.Windows.Forms.Button
-        Me.Button10 = New System.Windows.Forms.Button
+        Me.Button17 = New System.Windows.Forms.Button
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.PanelMaintenance.SuspendLayout()
         Me.PanelMonitoring.SuspendLayout()
@@ -256,6 +257,7 @@ Partial Class MDI_Administrator
         'PanelMonitoring
         '
         Me.PanelMonitoring.BackgroundImage = Global.Health_Quest.My.Resources.Resources.bgMain
+        Me.PanelMonitoring.Controls.Add(Me.Button17)
         Me.PanelMonitoring.Controls.Add(Me.Button10)
         Me.PanelMonitoring.Controls.Add(Me.Button26)
         Me.PanelMonitoring.Controls.Add(Me.Button13)
@@ -268,13 +270,26 @@ Partial Class MDI_Administrator
         Me.PanelMonitoring.TabIndex = 36
         Me.PanelMonitoring.Visible = False
         '
+        'Button10
+        '
+        Me.Button10.BackColor = System.Drawing.Color.Transparent
+        Me.Button10.BackgroundImage = CType(resources.GetObject("Button10.BackgroundImage"), System.Drawing.Image)
+        Me.Button10.Font = New System.Drawing.Font("Sylfaen", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button10.ForeColor = System.Drawing.SystemColors.ControlLightLight
+        Me.Button10.Location = New System.Drawing.Point(3, 257)
+        Me.Button10.Name = "Button10"
+        Me.Button10.Size = New System.Drawing.Size(191, 50)
+        Me.Button10.TabIndex = 43
+        Me.Button10.Text = "READER'S FEE SETTING"
+        Me.Button10.UseVisualStyleBackColor = False
+        '
         'Button26
         '
         Me.Button26.BackColor = System.Drawing.Color.Transparent
         Me.Button26.BackgroundImage = CType(resources.GetObject("Button26.BackgroundImage"), System.Drawing.Image)
         Me.Button26.Font = New System.Drawing.Font("Sylfaen", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button26.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Button26.Location = New System.Drawing.Point(4, 258)
+        Me.Button26.Location = New System.Drawing.Point(3, 308)
         Me.Button26.Name = "Button26"
         Me.Button26.Size = New System.Drawing.Size(191, 50)
         Me.Button26.TabIndex = 42
@@ -287,7 +302,7 @@ Partial Class MDI_Administrator
         Me.Button13.BackgroundImage = CType(resources.GetObject("Button13.BackgroundImage"), System.Drawing.Image)
         Me.Button13.Font = New System.Drawing.Font("Sylfaen", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button13.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Button13.Location = New System.Drawing.Point(4, 156)
+        Me.Button13.Location = New System.Drawing.Point(3, 206)
         Me.Button13.Name = "Button13"
         Me.Button13.Size = New System.Drawing.Size(191, 50)
         Me.Button13.TabIndex = 39
@@ -300,7 +315,7 @@ Partial Class MDI_Administrator
         Me.Button14.BackgroundImage = CType(resources.GetObject("Button14.BackgroundImage"), System.Drawing.Image)
         Me.Button14.Font = New System.Drawing.Font("Sylfaen", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button14.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Button14.Location = New System.Drawing.Point(4, 105)
+        Me.Button14.Location = New System.Drawing.Point(3, 155)
         Me.Button14.Name = "Button14"
         Me.Button14.Size = New System.Drawing.Size(191, 50)
         Me.Button14.TabIndex = 38
@@ -426,18 +441,18 @@ Partial Class MDI_Administrator
         Me.Button24.Text = "DOCTOR'S MONITORING"
         Me.Button24.UseVisualStyleBackColor = False
         '
-        'Button10
+        'Button17
         '
-        Me.Button10.BackColor = System.Drawing.Color.Transparent
-        Me.Button10.BackgroundImage = CType(resources.GetObject("Button10.BackgroundImage"), System.Drawing.Image)
-        Me.Button10.Font = New System.Drawing.Font("Sylfaen", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button10.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Button10.Location = New System.Drawing.Point(4, 207)
-        Me.Button10.Name = "Button10"
-        Me.Button10.Size = New System.Drawing.Size(191, 50)
-        Me.Button10.TabIndex = 43
-        Me.Button10.Text = "READER'S FEE SETTING"
-        Me.Button10.UseVisualStyleBackColor = False
+        Me.Button17.BackColor = System.Drawing.Color.Transparent
+        Me.Button17.BackgroundImage = CType(resources.GetObject("Button17.BackgroundImage"), System.Drawing.Image)
+        Me.Button17.Font = New System.Drawing.Font("Sylfaen", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button17.ForeColor = System.Drawing.SystemColors.ControlLightLight
+        Me.Button17.Location = New System.Drawing.Point(4, 105)
+        Me.Button17.Name = "Button17"
+        Me.Button17.Size = New System.Drawing.Size(191, 50)
+        Me.Button17.TabIndex = 44
+        Me.Button17.Text = "HMO PRICE SETTING"
+        Me.Button17.UseVisualStyleBackColor = False
         '
         'MDI_Administrator
         '
@@ -499,5 +514,6 @@ Partial Class MDI_Administrator
     Friend WithEvents Button27 As System.Windows.Forms.Button
     Friend WithEvents Button8 As System.Windows.Forms.Button
     Friend WithEvents Button10 As System.Windows.Forms.Button
+    Friend WithEvents Button17 As System.Windows.Forms.Button
 
 End Class

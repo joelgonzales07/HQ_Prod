@@ -361,4 +361,13 @@ Public Class MDI_Administrator
         frm_readersfee.Show()
         frm_readersfee.Location = New Point(216, 133)
     End Sub
+
+    Private Sub Button17_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button17.Click
+        For Each ChildForm As Form In Me.MdiChildren
+            ChildForm.Close()
+        Next
+        frm_hmoitem.MdiParent = Me
+        frm_hmoitem.Show()
+        frm_hmoitem.Location = New Point(216, 133)
+    End Sub
 End Class

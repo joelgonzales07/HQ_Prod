@@ -129,7 +129,7 @@ Public Class frm_readings
             tstid = servtid(cmb_serv.SelectedIndex)
             sid = servid1(cmb_serv.SelectedIndex)
 
-            Dim sel_q As String = "SELECT IF (service_table = 'service_type_tbl', (SELECT service_net FROM service_price_tbl WHERE stype_id = testservice_tbl.service_id), (SELECT net FROM package_tbl WHERE pack_id = testservice_tbl.service_id)) - IF (service_table = 'service_type_tbl', (SELECT service_net FROM service_price_tbl WHERE stype_id = testservice_tbl.service_id), (SELECT net FROM package_tbl WHERE pack_id = testservice_tbl.service_id)) * (disc_perc / 100) as 'Discounted Value', (count(testservice_id) * 10) FROM testservice_tbl WHERE test_id = '" & txttrid.Text & "' and homeservice = 'Yes' and payment_status = 'unpaid' and service_id = '" & sid & "' group by test_id, testservice_id"
+            Dim sel_q As String = "SELECT IF (service_table = 'service_type_tbl', (SELECT service_net FROM service_price_tbl WHERE stype_id = testservice_tbl.service_id), (SELECT net FROM package_tbl WHERE pack_id = testservice_tbl.service_id)) - IF (service_table = 'service_type_tbl', (SELECT service_net FROM service_price_tbl WHERE stype_id = testservice_tbl.service_id), (SELECT net FROM package_tbl WHERE pack_id = testservice_tbl.service_id)) * (disc_perc / 100) as 'Discounted Value', (count(testservice_id) * 10) FROM testservice_tbl WHERE test_id = '" & txttrid.Text & "' and service_id = '" & sid & "' group by test_id, testservice_id"
             Dim dtsel As New DataTable
             If conn.SelectRec(sel_q, dtsel) Then
                 If dtsel.Rows.Count > 0 Then
@@ -157,12 +157,15 @@ Public Class frm_readings
         If cbodocname.Text = "" Or cmb_serv.Text = "" Or rtxtreading.Text = "" Then
             MessageBox.Show("Required field(s) missing!", "Message", MessageBoxButtons.OK, MessageBoxIcon.Exclamation)
         Else
+            MsgBox(docid + " " + tstid + " " + sid)
             Dim select_query As String = "select * from readservice_tbl where testservice_id = '" & tstid & "' and service_id = '" & sid & "'"
             Dim dt As New DataTable
             If conn.SelectRec(select_query, dt) Then
                 If dt.Rows.Count > 0 Then
+                    MsgBox("good la")
                     Dim edit_query As String = "Update readservice_tbl set doc_id ='" & docid & "' and readings = '" & rtxtreading.Text & "' where testservice_id = '" & tstid & "' and service_id = '" & sid & "'"
                     If conn.ModRec(edit_query) = True Then
+                        MsgBox("good la2")
                         MessageBox.Show("Record(s) Update Successful", "Message ", MessageBoxButtons.OK, MessageBoxIcon.Information)
                     End If
                 Else
